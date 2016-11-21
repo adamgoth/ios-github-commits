@@ -12,6 +12,9 @@
 		F9ACF2F91DE3374300AE16F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2F71DE3374300AE16F5 /* Main.storyboard */; };
 		F9ACF2FB1DE3374300AE16F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */; };
 		F9ACF2FE1DE3374300AE16F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2FC1DE3374300AE16F5 /* LaunchScreen.storyboard */; };
+		F9ACF3061DE3378100AE16F5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */; };
+		F9ACF3081DE3386400AE16F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */; };
+		F9ACF30B1DE3391000AE16F5 /* github-commits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3091DE3391000AE16F5 /* github-commits.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9ACF2FD1DE3374300AE16F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9ACF2FF1DE3374400AE16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F9ACF30A1DE3391000AE16F5 /* github-commits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "github-commits.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 				F9ACF2F51DE3374300AE16F5 /* ViewController.swift */,
 				F9ACF2F71DE3374300AE16F5 /* Main.storyboard */,
 				F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */,
+				F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */,
 				F9ACF2FC1DE3374300AE16F5 /* LaunchScreen.storyboard */,
 				F9ACF2FF1DE3374400AE16F5 /* Info.plist */,
+				F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */,
+				F9ACF3091DE3391000AE16F5 /* github-commits.xcdatamodeld */,
 			);
 			path = "github-commits";
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9ACF3061DE3378100AE16F5 /* SwiftyJSON.swift in Sources */,
+				F9ACF30B1DE3391000AE16F5 /* github-commits.xcdatamodeld in Sources */,
 				F9ACF2F61DE3374300AE16F5 /* ViewController.swift in Sources */,
 				F9ACF2F41DE3374300AE16F5 /* AppDelegate.swift in Sources */,
+				F9ACF3081DE3386400AE16F5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9ACF3091DE3391000AE16F5 /* github-commits.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9ACF30A1DE3391000AE16F5 /* github-commits.xcdatamodel */,
+			);
+			currentVersion = F9ACF30A1DE3391000AE16F5 /* github-commits.xcdatamodel */;
+			path = "github-commits.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9ACF2E81DE3374300AE16F5 /* Project object */;
 }
