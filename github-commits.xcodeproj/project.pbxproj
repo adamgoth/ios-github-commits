@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91EC8331DE48C16000CE284 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91EC8321DE48C16000CE284 /* SwiftyJSON.swift */; };
 		F9ACF2F41DE3374300AE16F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF2F31DE3374300AE16F5 /* AppDelegate.swift */; };
 		F9ACF2F61DE3374300AE16F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF2F51DE3374300AE16F5 /* ViewController.swift */; };
 		F9ACF2F91DE3374300AE16F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2F71DE3374300AE16F5 /* Main.storyboard */; };
 		F9ACF2FB1DE3374300AE16F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */; };
 		F9ACF2FE1DE3374300AE16F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ACF2FC1DE3374300AE16F5 /* LaunchScreen.storyboard */; };
-		F9ACF3061DE3378100AE16F5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */; };
 		F9ACF3081DE3386400AE16F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */; };
 		F9ACF30B1DE3391000AE16F5 /* github-commits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9ACF3091DE3391000AE16F5 /* github-commits.xcdatamodeld */; };
+		F9DCA4831DE4897000799DCD /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCA4811DE4897000799DCD /* Commit+CoreDataClass.swift */; };
+		F9DCA4841DE4897000799DCD /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCA4821DE4897000799DCD /* Commit+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F91EC8321DE48C16000CE284 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F9ACF2F01DE3374300AE16F5 /* github-commits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-commits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9ACF2F31DE3374300AE16F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9ACF2F51DE3374300AE16F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +28,10 @@
 		F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9ACF2FD1DE3374300AE16F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9ACF2FF1DE3374400AE16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F9ACF30A1DE3391000AE16F5 /* github-commits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "github-commits.xcdatamodel"; sourceTree = "<group>"; };
+		F9DCA4811DE4897000799DCD /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F9DCA4821DE4897000799DCD /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 		F9ACF2F21DE3374300AE16F5 /* github-commits */ = {
 			isa = PBXGroup;
 			children = (
+				F9DCA4811DE4897000799DCD /* Commit+CoreDataClass.swift */,
+				F9DCA4821DE4897000799DCD /* Commit+CoreDataProperties.swift */,
 				F9ACF2F31DE3374300AE16F5 /* AppDelegate.swift */,
 				F9ACF2F51DE3374300AE16F5 /* ViewController.swift */,
 				F9ACF2F71DE3374300AE16F5 /* Main.storyboard */,
 				F9ACF2FA1DE3374300AE16F5 /* Assets.xcassets */,
-				F9ACF3051DE3378100AE16F5 /* SwiftyJSON.swift */,
 				F9ACF2FC1DE3374300AE16F5 /* LaunchScreen.storyboard */,
+				F91EC8321DE48C16000CE284 /* SwiftyJSON.swift */,
 				F9ACF2FF1DE3374400AE16F5 /* Info.plist */,
 				F9ACF3071DE3386400AE16F5 /* DetailViewController.swift */,
 				F9ACF3091DE3391000AE16F5 /* github-commits.xcdatamodeld */,
@@ -145,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9ACF3061DE3378100AE16F5 /* SwiftyJSON.swift in Sources */,
 				F9ACF30B1DE3391000AE16F5 /* github-commits.xcdatamodeld in Sources */,
 				F9ACF2F61DE3374300AE16F5 /* ViewController.swift in Sources */,
+				F9DCA4831DE4897000799DCD /* Commit+CoreDataClass.swift in Sources */,
 				F9ACF2F41DE3374300AE16F5 /* AppDelegate.swift in Sources */,
+				F9DCA4841DE4897000799DCD /* Commit+CoreDataProperties.swift in Sources */,
+				F91EC8331DE48C16000CE284 /* SwiftyJSON.swift in Sources */,
 				F9ACF3081DE3386400AE16F5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +319,7 @@
 				F9ACF3041DE3374400AE16F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
