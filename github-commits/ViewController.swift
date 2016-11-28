@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    var container: NSPersistentContainer!
+    var container: NSPersistentContainer = NSPersistentContainer(name: "github-commits")
     var commits = [Commit]()
 
     override func viewDidLoad() {
@@ -20,6 +20,8 @@ class ViewController: UITableViewController {
         let container = NSPersistentContainer(name: "github-commits")
         
         container.loadPersistentStores { storeDescription, error in
+            self.container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
+            
             if let error = error {
                 print("Unresolved error \(error)")
             }
